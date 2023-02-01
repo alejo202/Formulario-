@@ -1,0 +1,267 @@
+/*--1 Para darle un color de fondo al body*/
+/*
+body{
+	font-family: Arial; /Para dalrle una tipografía en especifico/
+	background-color: #409111;
+}*/
+
+/*Para darle estilos a un ID en este caso se llama "container"*/
+/*#container{
+	margin: auto; /Para darle margen al elemento/
+	width: 300px; /Para darle un ancho al elemento/
+}*/
+
+/*Para darle estilos a un div con clase "opcion"*/
+/*.opcion div{
+	line-height: 20px; /Establecer interlineado del texto/
+}*/
+
+
+/*Para darle estilos a un div con clase "opcion"*/
+/*.opcion > div{
+	padding: 10px; /Para darle un espaciado entre elementos/
+	background-color: #003366; /Para darle un color de fondo al div/
+	color: white; /Para darle color al texto
+}*/
+
+/*.opcion > div + div{
+	padding: 0; /Para darle un espaciado entre elementos/
+}*/
+
+/*.opcion > div + div img ~ div{
+	background-color: white; /Para darle un color de fondo al div/
+	color: black; /Para darle color al texto
+	padding: 10px; /Para darle un espaciado entre elementos/
+}*/
+
+/*.opcion > div + div img + div{
+	font-size: 10px; /Para darle tamaño al texto/
+	font-style: italic; /Para darle estilo al texto/
+}*/
+
+/*.opcion > div + div{
+	display: none; /Metodo de visualización en pantalla/
+}*/
+
+
+/*.opcion > div:hover + div{
+	display: block; Metodo de visualización en pantalla/
+}*/
+
+
+
+
+
+
+/*--2*/
+/*
+body{
+	background: #174da3; / Para darle un color de fondo al body/
+	box-sizing: border-box; /nos permite incluir el relleno y el borde en el ancho y alto total de un elemento./
+	font-family: Verdana; /Para darle una familia tipografica en especifico/
+}
+
+
+/*Para darle estilos a un ID en este caso se llama "container"*/
+/*#container{
+	width: 700px; /Para darle un ancho al div/
+	height: 400px; /Para darle un alto al div/
+	margin: 100px auto; /Para darle una margen al div/
+}*/
+
+/*Para darl estilos a un Id "card" ademas afectando al Id "img-bg"*/
+/*#card, #img-bg{
+	width: 700px; /Para darle un ancho a los divs/
+	height: 400px; /Para darle un alto a los divs/
+}
+*/
+
+/*Para darl estilos a un Id "card"*/
+/*#card{
+	background-color: #000; /Para darle un color de fondo al div/
+	background: radial-gradient( #000, red); /Para darle una gradiente al fondo del div/
+	border-radius: 7px; /Para darle bordes redondos al div/
+	box-shadow: 0 0 20px rgba(0,0,0,0.2); /Para darle sombra al div/
+	color: white; /Para darle color al texto del div/
+}*/
+
+
+
+/*Para darl estilos a un Id "img-bg"*/
+/*#img-bg{
+	background-image: url(perrito.png); /Para poner una imagen en el fondo del div/
+	background-repeat: no-repeat; /Para que no se repita la imagen del fondo/
+	background-position: bottom right; /Para posicionar el fondo/
+	background-size: 600px; /Para darle un tamaño general al div/
+
+}*/
+
+
+/*Para darl estilos a el titulo*/
+/*h1{
+	font-size: 62px; /Para darle un tamaño al texto/
+	padding: 100px 0 0 40px; /Para generar espaciado entre elementos/
+	margin: 0; /Para generar margen al texto/
+}
+
+
+/*Para darle estilos a el subtitulo*/
+/*h2{
+	color: rgba(255,255,255,0.7); /Para darle color al texto/
+	font-size: 20px; /Para darle tamaño al texto/
+	padding: 0 0 0 40px; /Para generar espaciado entre elementos/
+}*/
+
+
+/*Para darle estilos a el parrafo*/
+/*p{
+	padding: 20px 0 0 40px; /Para generar espaciado entre elementos/
+}
+
+
+/*Para darle estilos a el parrafo y al mismo tiempo al vinculo*/
+/*p a{
+	background-color: #387bc2; /Para darle color al fondo/
+	border-radius: 5px; /Para darle bordes redondos/
+	padding: 10px 15px; /Para generar espaciado entre elementos/
+	color: white; /Para darle color al texto/
+	text-decoration: none; /Determina el decorado del texto/
+}*/
+
+
+/*Darle estilos al parrafo y al mismo tiempo al vinculo cuando se pasa el mouse encima*/
+/*p a:hover{
+	background-color: skyblue; /Cambia el color del parrafo y vinculos
+}*/
+
+
+
+
+body{font-family: Arial; 
+	background-color: #256999; 
+	box-sizing: border-box; 
+	padding: 100px;}
+
+form{
+			background-color: white;
+			border-radius: 0px 0px 30px 30px;
+			color: #999;
+			font-size: 0.8em;
+			padding: 20px;
+			margin: 0 auto;
+			width: 300px;
+		}
+
+input, textarea{
+			border: 0;
+			outline: none;
+
+			width: 280px;
+		}
+
+.field{
+			border: solid 1px #ccc;
+			border-radius: 0 4px 4px 0; 
+			padding: 10px;
+			width: 240px;
+		}
+
+.field:focus{
+			border-color: #18A383;
+		}
+
+.center-content{
+			text-align: center;
+		}
+
+.field-container div{
+			display: inline-block;
+			vertical-align: top;
+		}
+
+.field-container i{
+			background-color: #eee;
+			border-radius: 4px 0 0 4px; 
+			color: #888;
+			padding: 10px 10px 11px 10px;
+			border: solid 1px #ccc;
+			max-height: 35px;
+			margin-right: -5px;
+			vertical-align: top;
+		}
+
+#menu ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+		}
+
+#menu ul li{
+			display: inline-block;
+			width: 50%;
+			margin-right: -4px;
+
+		}
+
+#menu ul li a{
+			background-color: #ccc;
+			color: #222;
+			display: block;
+			padding: 25px 35px;
+			text-decoration: none;
+			border-radius: 30px 30px 0px 0px;
+		}
+
+#menu ul li a:hover{
+			background-color: #eee;
+		}
+
+#formularios, #menu{
+			margin: 0 auto;
+			width: 340px;
+		}
+
+.active{
+			background-color: white !important;
+		}
+
+.columns >div{
+			width: 50%;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: -4px;
+		}
+.columns .field{
+			width: 80px;
+		}
+
+#form_register{
+			display: none;
+		}
+
+
+.btn{
+	border-radius: 3px;
+	display: inline-block;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+}
+
+.btn-green{
+	color: white;
+	background-color: #3CC93F;
+}
+
+.btn-black{
+	color: #ddd;
+	background-color: #222;
+}
+.btn-green:hover{
+	background-color: #37B839;	
+}
+.btn-green:active{
+	background-color: #29962A;
+}
